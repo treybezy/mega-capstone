@@ -1,0 +1,1 @@
+json.array! @location_discounts, partial: "location_discounts", as: :location_discounts

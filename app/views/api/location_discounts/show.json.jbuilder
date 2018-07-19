@@ -1,0 +1,1 @@
+json.location_discount! @location_discount, partial: "location_discount", as: :location_discount

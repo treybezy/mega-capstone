@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Got Discounts?</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Bell
+    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <!-- Page Content
+    ================================================== -->
+  <!-- Hero -->
+
+  <!-- /Hero -->
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="index.html">
+          <img src="img/trey_logo.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Bell</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href='/#/discounts/new'> Create Discount </a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="menu-has-children"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+
+      <nav class="nav social-nav pull-right d-none d-lg-inline">
+        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+      </nav>
+    </div>
+  </header>
+  <!-- #header -->
+
+ <div id="vue-app">
+   <router-view></router-view>
+ </div> 
+  
+  <!-- Parallax -->
+
+  <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
+   
+    
+  </div>
+  <!-- /Parallax -->
+  <!-- Call to Action -->
+
+  <section class="cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-sm-12 text-lg-left text-center">
+          <h2>
+              Call to Action Section
+            </h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, nec ad nisl mandamus imperdiet, ut corpora cotidieque cum. Et brute iracundia his, est eu idque dictas gubergren
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-sm-12 text-lg-right text-center">
+          <a class="btn btn-ghost" href="#">Buy This Theme</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Call to Action -->
+ 
+  
+  <!-- @component: footer -->
+
+ 
+
+  <footer class="site-footer">
+    <div class="bottom">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+            <p class="copyright-text">
+              © BELL Theme
+            </p>
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
+              -->
+             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="index.html">Home</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#about">About Us</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#features">Features</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#team">Team</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/tether/js/tether.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/easing/easing.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/lockfixed/lockfixed.min.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
+</body>
+</html>
+
+<template id="home-page">
+  <div class="vue-component">
+
+    <section class="hero">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/trey_logo.png"></a>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <h1>
+              Use Your Money, The Smart Way!
+            </h1>
+
+          <p class="tagline">
+            Low on cash for school? Job pays by the month? parents havent sent you that care package? Check out these discounts that supports students like you!
+          </p>
+          <a class="btn btn-full" href="/#/">Search</a>
+        </div>
+      </div>
+
+    </section>
+    <!-- Features -->
+
+    <div id="search-bar">
+       Search Name <input v-model="nameFilter" list="brands">
+       <datalist id="brands">
+         <option v-for="discount in discounts">{{ discount.brand }}</option>
+       </datalist>
+     </div>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="text-center">
+            Student Discounts
+          </h2>
+
+        <div class="row">
+          <div class="feature-col col-lg-4 col-xs-12" v-for="discount in discounts">
+            <div class="card card-block text-center">
+              <div>
+                <a v-for="location in discount.locations" v-bind:href=" 'https://www.google.com/maps/place/' + location.address + '+' + location.city + '+' + location.state + '+' + location.zip ">
+                  <div class="feature-icon">
+                    <span class="fa fa-map-marker"></span>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <h3 >
+                    {{ discount.brand }}
+                  </h3>
+
+                <p>
+                  {{ discount.description }}
+                </p>
+              </div>
+              <div>
+                <p>
+                  {{ discount.discounted_price + "%" }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+
+    </section>
+    <!-- /Features -->
+</template>
+
+<template id="discounts-new-page">
+  <div class=vue-component>
+     <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section-title">Create New Discount</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4">
+          <div class="info">
+
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8">
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <div class="contactForm">
+              <div class="form-group">
+                <input v-model="newDiscountBrand" class="form-control" id="name" placeholder="Discount Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input v-model="newDiscountBio" class="form-control" name="email" id="email" placeholder="Description" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input v-model="newDiscountDiscount" class="form-control" name="subject" id="subject" placeholder="Discounted Price(Do not add %)" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+            
+              <div class="text-center"><button class="btn btn-info" v-on:click="addDiscount()"> Add </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </div>
+</template>
+
+<template id="locations-new-page">
+  <div class=vue-component>
+    Address: <input v-model="newLocationAddress">
+    city: <input v-model="newLocationCity">
+    state: <input v-model="newLocationState">
+    zip: <input v-model="newLocationZip">
+      <button v-on:click="addLocations()"><a v-bind:href="'/#/' "><div style="border-radius: 100%; background-color: blue;"></div> Add </a></button>
+  </div>
+</template>
+
+<template id="discounts-show-page">
+  <div class="vue-component">
+    <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div>
+            <h3>Discount Name: {{ discount.brand }}</h3>
+            <h3>Description: {{ discount.description }}</h3>
+            <h3>Price: {{ discount.discounted_price }}</h3>
+          </div>
+
+          <br>
+            <h2 class="section-title">Add Location</h2>
+
+    <ul>
+      <li v-for="location in discount.locations">{{location.address}}, {{ location.city }}, {{location.state}}, {{ location.zip }} </li>
+    </ul>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4">
+          <div class="info">
+
+
+
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8">
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <div class="contactForm">
+              <div class="form-group">
+                 <input v-model="newLocationAddress" class="form-control" placeholder="Address" data-rule="minlen:4"/>
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                 <input v-model="newLocationCity" class="form-control" placeholder="City" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                 <input v-model="newLocationState" class="form-control" name="subject" id="subject" placeholder="State" data-rule="minlen:4"/> 
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                       <input v-model="newLocationZip" class="form-control" name="subject" id="subject" placeholder="Zip" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+            
+              <!-- <div class="text-center"> <button type="submit" v-on:click="addLocations()"> Add </button> -->
+
+                <div class="text-center"> <button class="btn btn-info" v-on:click="addLocations()"> Submit To Page </button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+    
+  </div>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
